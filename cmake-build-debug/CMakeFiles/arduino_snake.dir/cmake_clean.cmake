@@ -12,8 +12,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.o"
   "CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.o"
   "CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o"
+  "CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o"
+  "CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o"
   "arduino_snake.pdb"
-  "arduino_snake"
+  "arduino_snake.exe"
+  "libarduino_snake.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

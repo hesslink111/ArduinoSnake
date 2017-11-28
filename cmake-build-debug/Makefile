@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/Will/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /cygdrive/c/Users/Will/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/willpease/CLionProjects/ArduinoSnake
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/cygdrive/c/Users/Will/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/cygdrive/c/Users/Will/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles /Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -474,6 +474,60 @@ renderer/Renderer.cpp.s:
 	$(MAKE) -f CMakeFiles/arduino_snake.dir/build.make CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.s
 .PHONY : renderer/Renderer.cpp.s
 
+timer/Timer.o: timer/Timer.cpp.o
+
+.PHONY : timer/Timer.o
+
+# target to build an object file
+timer/Timer.cpp.o:
+	$(MAKE) -f CMakeFiles/arduino_snake.dir/build.make CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o
+.PHONY : timer/Timer.cpp.o
+
+timer/Timer.i: timer/Timer.cpp.i
+
+.PHONY : timer/Timer.i
+
+# target to preprocess a source file
+timer/Timer.cpp.i:
+	$(MAKE) -f CMakeFiles/arduino_snake.dir/build.make CMakeFiles/arduino_snake.dir/timer/Timer.cpp.i
+.PHONY : timer/Timer.cpp.i
+
+timer/Timer.s: timer/Timer.cpp.s
+
+.PHONY : timer/Timer.s
+
+# target to generate assembly for a file
+timer/Timer.cpp.s:
+	$(MAKE) -f CMakeFiles/arduino_snake.dir/build.make CMakeFiles/arduino_snake.dir/timer/Timer.cpp.s
+.PHONY : timer/Timer.cpp.s
+
+timer/Waiter.o: timer/Waiter.cpp.o
+
+.PHONY : timer/Waiter.o
+
+# target to build an object file
+timer/Waiter.cpp.o:
+	$(MAKE) -f CMakeFiles/arduino_snake.dir/build.make CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o
+.PHONY : timer/Waiter.cpp.o
+
+timer/Waiter.i: timer/Waiter.cpp.i
+
+.PHONY : timer/Waiter.i
+
+# target to preprocess a source file
+timer/Waiter.cpp.i:
+	$(MAKE) -f CMakeFiles/arduino_snake.dir/build.make CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.i
+.PHONY : timer/Waiter.cpp.i
+
+timer/Waiter.s: timer/Waiter.cpp.s
+
+.PHONY : timer/Waiter.s
+
+# target to generate assembly for a file
+timer/Waiter.cpp.s:
+	$(MAKE) -f CMakeFiles/arduino_snake.dir/build.make CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.s
+.PHONY : timer/Waiter.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -522,6 +576,12 @@ help:
 	@echo "... renderer/Renderer.o"
 	@echo "... renderer/Renderer.i"
 	@echo "... renderer/Renderer.s"
+	@echo "... timer/Timer.o"
+	@echo "... timer/Timer.i"
+	@echo "... timer/Timer.s"
+	@echo "... timer/Waiter.o"
+	@echo "... timer/Waiter.i"
+	@echo "... timer/Waiter.s"
 .PHONY : help
 
 

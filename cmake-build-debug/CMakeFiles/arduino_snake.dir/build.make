@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/Will/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /cygdrive/c/Users/Will/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/willpease/CLionProjects/ArduinoSnake
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/arduino_snake.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/arduino_snake.dir/flags.make
 
 CMakeFiles/arduino_snake.dir/main.cpp.o: CMakeFiles/arduino_snake.dir/flags.make
 CMakeFiles/arduino_snake.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/arduino_snake.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/main.cpp.o -c /Users/willpease/CLionProjects/ArduinoSnake/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/arduino_snake.dir/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/main.cpp.o -c /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/main.cpp
 
 CMakeFiles/arduino_snake.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduino_snake.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/willpease/CLionProjects/ArduinoSnake/main.cpp > CMakeFiles/arduino_snake.dir/main.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/main.cpp > CMakeFiles/arduino_snake.dir/main.cpp.i
 
 CMakeFiles/arduino_snake.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduino_snake.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/willpease/CLionProjects/ArduinoSnake/main.cpp -o CMakeFiles/arduino_snake.dir/main.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/main.cpp -o CMakeFiles/arduino_snake.dir/main.cpp.s
 
 CMakeFiles/arduino_snake.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/arduino_snake.dir/main.cpp.o.provides.build: CMakeFiles/arduino_snake
 
 CMakeFiles/arduino_snake.dir/game/Snake.cpp.o: CMakeFiles/arduino_snake.dir/flags.make
 CMakeFiles/arduino_snake.dir/game/Snake.cpp.o: ../game/Snake.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/arduino_snake.dir/game/Snake.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/game/Snake.cpp.o -c /Users/willpease/CLionProjects/ArduinoSnake/game/Snake.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/arduino_snake.dir/game/Snake.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/game/Snake.cpp.o -c /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/game/Snake.cpp
 
 CMakeFiles/arduino_snake.dir/game/Snake.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduino_snake.dir/game/Snake.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/willpease/CLionProjects/ArduinoSnake/game/Snake.cpp > CMakeFiles/arduino_snake.dir/game/Snake.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/game/Snake.cpp > CMakeFiles/arduino_snake.dir/game/Snake.cpp.i
 
 CMakeFiles/arduino_snake.dir/game/Snake.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduino_snake.dir/game/Snake.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/willpease/CLionProjects/ArduinoSnake/game/Snake.cpp -o CMakeFiles/arduino_snake.dir/game/Snake.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/game/Snake.cpp -o CMakeFiles/arduino_snake.dir/game/Snake.cpp.s
 
 CMakeFiles/arduino_snake.dir/game/Snake.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/arduino_snake.dir/game/Snake.cpp.o.provides.build: CMakeFiles/arduino
 
 CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.o: CMakeFiles/arduino_snake.dir/flags.make
 CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.o: ../game/SnakeSegment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.o -c /Users/willpease/CLionProjects/ArduinoSnake/game/SnakeSegment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.o -c /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/game/SnakeSegment.cpp
 
 CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/willpease/CLionProjects/ArduinoSnake/game/SnakeSegment.cpp > CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/game/SnakeSegment.cpp > CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.i
 
 CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/willpease/CLionProjects/ArduinoSnake/game/SnakeSegment.cpp -o CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/game/SnakeSegment.cpp -o CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.s
 
 CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.o: CMakeFiles/arduino_snake.dir/flags.make
 CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.o: ../renderer/Renderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.o -c /Users/willpease/CLionProjects/ArduinoSnake/renderer/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.o -c /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/renderer/Renderer.cpp
 
 CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/willpease/CLionProjects/ArduinoSnake/renderer/Renderer.cpp > CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/renderer/Renderer.cpp > CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.i
 
 CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/willpease/CLionProjects/ArduinoSnake/renderer/Renderer.cpp -o CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/renderer/Renderer.cpp -o CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.s
 
 CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/arduino_snake.dir/game/Board.cpp.o: CMakeFiles/arduino_snake.dir/flags.make
 CMakeFiles/arduino_snake.dir/game/Board.cpp.o: ../game/Board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/arduino_snake.dir/game/Board.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/game/Board.cpp.o -c /Users/willpease/CLionProjects/ArduinoSnake/game/Board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/arduino_snake.dir/game/Board.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/game/Board.cpp.o -c /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/game/Board.cpp
 
 CMakeFiles/arduino_snake.dir/game/Board.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduino_snake.dir/game/Board.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/willpease/CLionProjects/ArduinoSnake/game/Board.cpp > CMakeFiles/arduino_snake.dir/game/Board.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/game/Board.cpp > CMakeFiles/arduino_snake.dir/game/Board.cpp.i
 
 CMakeFiles/arduino_snake.dir/game/Board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduino_snake.dir/game/Board.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/willpease/CLionProjects/ArduinoSnake/game/Board.cpp -o CMakeFiles/arduino_snake.dir/game/Board.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/game/Board.cpp -o CMakeFiles/arduino_snake.dir/game/Board.cpp.s
 
 CMakeFiles/arduino_snake.dir/game/Board.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/arduino_snake.dir/game/Board.cpp.o.provides.build: CMakeFiles/arduino
 
 CMakeFiles/arduino_snake.dir/game/Food.cpp.o: CMakeFiles/arduino_snake.dir/flags.make
 CMakeFiles/arduino_snake.dir/game/Food.cpp.o: ../game/Food.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/arduino_snake.dir/game/Food.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/game/Food.cpp.o -c /Users/willpease/CLionProjects/ArduinoSnake/game/Food.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/arduino_snake.dir/game/Food.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/game/Food.cpp.o -c /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/game/Food.cpp
 
 CMakeFiles/arduino_snake.dir/game/Food.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduino_snake.dir/game/Food.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/willpease/CLionProjects/ArduinoSnake/game/Food.cpp > CMakeFiles/arduino_snake.dir/game/Food.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/game/Food.cpp > CMakeFiles/arduino_snake.dir/game/Food.cpp.i
 
 CMakeFiles/arduino_snake.dir/game/Food.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduino_snake.dir/game/Food.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/willpease/CLionProjects/ArduinoSnake/game/Food.cpp -o CMakeFiles/arduino_snake.dir/game/Food.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/game/Food.cpp -o CMakeFiles/arduino_snake.dir/game/Food.cpp.s
 
 CMakeFiles/arduino_snake.dir/game/Food.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/arduino_snake.dir/game/Food.cpp.o.provides.build: CMakeFiles/arduino_
 
 CMakeFiles/arduino_snake.dir/game/Entity.cpp.o: CMakeFiles/arduino_snake.dir/flags.make
 CMakeFiles/arduino_snake.dir/game/Entity.cpp.o: ../game/Entity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/arduino_snake.dir/game/Entity.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/game/Entity.cpp.o -c /Users/willpease/CLionProjects/ArduinoSnake/game/Entity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/arduino_snake.dir/game/Entity.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/game/Entity.cpp.o -c /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/game/Entity.cpp
 
 CMakeFiles/arduino_snake.dir/game/Entity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduino_snake.dir/game/Entity.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/willpease/CLionProjects/ArduinoSnake/game/Entity.cpp > CMakeFiles/arduino_snake.dir/game/Entity.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/game/Entity.cpp > CMakeFiles/arduino_snake.dir/game/Entity.cpp.i
 
 CMakeFiles/arduino_snake.dir/game/Entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduino_snake.dir/game/Entity.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/willpease/CLionProjects/ArduinoSnake/game/Entity.cpp -o CMakeFiles/arduino_snake.dir/game/Entity.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/game/Entity.cpp -o CMakeFiles/arduino_snake.dir/game/Entity.cpp.s
 
 CMakeFiles/arduino_snake.dir/game/Entity.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/arduino_snake.dir/game/Entity.cpp.o.provides.build: CMakeFiles/arduin
 
 CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.o: CMakeFiles/arduino_snake.dir/flags.make
 CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.o: ../renderer/DiffDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.o -c /Users/willpease/CLionProjects/ArduinoSnake/renderer/DiffDescription.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.o -c /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/renderer/DiffDescription.cpp
 
 CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/willpease/CLionProjects/ArduinoSnake/renderer/DiffDescription.cpp > CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/renderer/DiffDescription.cpp > CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.i
 
 CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/willpease/CLionProjects/ArduinoSnake/renderer/DiffDescription.cpp -o CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/renderer/DiffDescription.cpp -o CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.s
 
 CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.o.provides.build: CMak
 
 CMakeFiles/arduino_snake.dir/input/InputState.cpp.o: CMakeFiles/arduino_snake.dir/flags.make
 CMakeFiles/arduino_snake.dir/input/InputState.cpp.o: ../input/InputState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/arduino_snake.dir/input/InputState.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/input/InputState.cpp.o -c /Users/willpease/CLionProjects/ArduinoSnake/input/InputState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/arduino_snake.dir/input/InputState.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/input/InputState.cpp.o -c /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/input/InputState.cpp
 
 CMakeFiles/arduino_snake.dir/input/InputState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduino_snake.dir/input/InputState.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/willpease/CLionProjects/ArduinoSnake/input/InputState.cpp > CMakeFiles/arduino_snake.dir/input/InputState.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/input/InputState.cpp > CMakeFiles/arduino_snake.dir/input/InputState.cpp.i
 
 CMakeFiles/arduino_snake.dir/input/InputState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduino_snake.dir/input/InputState.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/willpease/CLionProjects/ArduinoSnake/input/InputState.cpp -o CMakeFiles/arduino_snake.dir/input/InputState.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/input/InputState.cpp -o CMakeFiles/arduino_snake.dir/input/InputState.cpp.s
 
 CMakeFiles/arduino_snake.dir/input/InputState.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/arduino_snake.dir/input/InputState.cpp.o.provides.build: CMakeFiles/a
 
 CMakeFiles/arduino_snake.dir/GameManager.cpp.o: CMakeFiles/arduino_snake.dir/flags.make
 CMakeFiles/arduino_snake.dir/GameManager.cpp.o: ../GameManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/arduino_snake.dir/GameManager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/GameManager.cpp.o -c /Users/willpease/CLionProjects/ArduinoSnake/GameManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/arduino_snake.dir/GameManager.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/GameManager.cpp.o -c /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/GameManager.cpp
 
 CMakeFiles/arduino_snake.dir/GameManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduino_snake.dir/GameManager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/willpease/CLionProjects/ArduinoSnake/GameManager.cpp > CMakeFiles/arduino_snake.dir/GameManager.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/GameManager.cpp > CMakeFiles/arduino_snake.dir/GameManager.cpp.i
 
 CMakeFiles/arduino_snake.dir/GameManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduino_snake.dir/GameManager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/willpease/CLionProjects/ArduinoSnake/GameManager.cpp -o CMakeFiles/arduino_snake.dir/GameManager.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/GameManager.cpp -o CMakeFiles/arduino_snake.dir/GameManager.cpp.s
 
 CMakeFiles/arduino_snake.dir/GameManager.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/arduino_snake.dir/GameManager.cpp.o.provides.build: CMakeFiles/arduin
 
 CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.o: CMakeFiles/arduino_snake.dir/flags.make
 CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.o: ../input/ArduinoInputReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.o -c /Users/willpease/CLionProjects/ArduinoSnake/input/ArduinoInputReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.o -c /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/input/ArduinoInputReader.cpp
 
 CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/willpease/CLionProjects/ArduinoSnake/input/ArduinoInputReader.cpp > CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/input/ArduinoInputReader.cpp > CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.i
 
 CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/willpease/CLionProjects/ArduinoSnake/input/ArduinoInputReader.cpp -o CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/input/ArduinoInputReader.cpp -o CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.s
 
 CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.o.provides.build: CMak
 
 CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.o: CMakeFiles/arduino_snake.dir/flags.make
 CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.o: ../ArduinoGame.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.o -c /Users/willpease/CLionProjects/ArduinoSnake/ArduinoGame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.o -c /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/ArduinoGame.cpp
 
 CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/willpease/CLionProjects/ArduinoSnake/ArduinoGame.cpp > CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/ArduinoGame.cpp > CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.i
 
 CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/willpease/CLionProjects/ArduinoSnake/ArduinoGame.cpp -o CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/ArduinoGame.cpp -o CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.s
 
 CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.o.provides.build: CMakeFiles/arduin
 
 CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o: CMakeFiles/arduino_snake.dir/flags.make
 CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o: ../renderer/ArduinoRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o -c /Users/willpease/CLionProjects/ArduinoSnake/renderer/ArduinoRenderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o -c /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/renderer/ArduinoRenderer.cpp
 
 CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/willpease/CLionProjects/ArduinoSnake/renderer/ArduinoRenderer.cpp > CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/renderer/ArduinoRenderer.cpp > CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.i
 
 CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/willpease/CLionProjects/ArduinoSnake/renderer/ArduinoRenderer.cpp -o CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/renderer/ArduinoRenderer.cpp -o CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.s
 
 CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o.requires:
 
@@ -367,6 +367,54 @@ CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o.provides: CMakeFiles
 .PHONY : CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o.provides
 
 CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o.provides.build: CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o
+
+
+CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o: CMakeFiles/arduino_snake.dir/flags.make
+CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o: ../timer/Timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o -c /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/timer/Timer.cpp
+
+CMakeFiles/arduino_snake.dir/timer/Timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduino_snake.dir/timer/Timer.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/timer/Timer.cpp > CMakeFiles/arduino_snake.dir/timer/Timer.cpp.i
+
+CMakeFiles/arduino_snake.dir/timer/Timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduino_snake.dir/timer/Timer.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/timer/Timer.cpp -o CMakeFiles/arduino_snake.dir/timer/Timer.cpp.s
+
+CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o.requires:
+
+.PHONY : CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o.requires
+
+CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o.provides: CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/arduino_snake.dir/build.make CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o.provides.build
+.PHONY : CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o.provides
+
+CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o.provides.build: CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o
+
+
+CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o: CMakeFiles/arduino_snake.dir/flags.make
+CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o: ../timer/Waiter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o -c /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/timer/Waiter.cpp
+
+CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/timer/Waiter.cpp > CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.i
+
+CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/timer/Waiter.cpp -o CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.s
+
+CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o.requires:
+
+.PHONY : CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o.requires
+
+CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o.provides: CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o.requires
+	$(MAKE) -f CMakeFiles/arduino_snake.dir/build.make CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o.provides.build
+.PHONY : CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o.provides
+
+CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o.provides.build: CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o
 
 
 # Object files for target arduino_snake
@@ -383,31 +431,35 @@ arduino_snake_OBJECTS = \
 "CMakeFiles/arduino_snake.dir/GameManager.cpp.o" \
 "CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.o" \
 "CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.o" \
-"CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o"
+"CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o" \
+"CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o" \
+"CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o"
 
 # External object files for target arduino_snake
 arduino_snake_EXTERNAL_OBJECTS =
 
-arduino_snake: CMakeFiles/arduino_snake.dir/main.cpp.o
-arduino_snake: CMakeFiles/arduino_snake.dir/game/Snake.cpp.o
-arduino_snake: CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.o
-arduino_snake: CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.o
-arduino_snake: CMakeFiles/arduino_snake.dir/game/Board.cpp.o
-arduino_snake: CMakeFiles/arduino_snake.dir/game/Food.cpp.o
-arduino_snake: CMakeFiles/arduino_snake.dir/game/Entity.cpp.o
-arduino_snake: CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.o
-arduino_snake: CMakeFiles/arduino_snake.dir/input/InputState.cpp.o
-arduino_snake: CMakeFiles/arduino_snake.dir/GameManager.cpp.o
-arduino_snake: CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.o
-arduino_snake: CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.o
-arduino_snake: CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o
-arduino_snake: CMakeFiles/arduino_snake.dir/build.make
-arduino_snake: CMakeFiles/arduino_snake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable arduino_snake"
+arduino_snake.exe: CMakeFiles/arduino_snake.dir/main.cpp.o
+arduino_snake.exe: CMakeFiles/arduino_snake.dir/game/Snake.cpp.o
+arduino_snake.exe: CMakeFiles/arduino_snake.dir/game/SnakeSegment.cpp.o
+arduino_snake.exe: CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.o
+arduino_snake.exe: CMakeFiles/arduino_snake.dir/game/Board.cpp.o
+arduino_snake.exe: CMakeFiles/arduino_snake.dir/game/Food.cpp.o
+arduino_snake.exe: CMakeFiles/arduino_snake.dir/game/Entity.cpp.o
+arduino_snake.exe: CMakeFiles/arduino_snake.dir/renderer/DiffDescription.cpp.o
+arduino_snake.exe: CMakeFiles/arduino_snake.dir/input/InputState.cpp.o
+arduino_snake.exe: CMakeFiles/arduino_snake.dir/GameManager.cpp.o
+arduino_snake.exe: CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.o
+arduino_snake.exe: CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.o
+arduino_snake.exe: CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o
+arduino_snake.exe: CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o
+arduino_snake.exe: CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o
+arduino_snake.exe: CMakeFiles/arduino_snake.dir/build.make
+arduino_snake.exe: CMakeFiles/arduino_snake.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable arduino_snake.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/arduino_snake.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/arduino_snake.dir/build: arduino_snake
+CMakeFiles/arduino_snake.dir/build: arduino_snake.exe
 
 .PHONY : CMakeFiles/arduino_snake.dir/build
 
@@ -424,6 +476,8 @@ CMakeFiles/arduino_snake.dir/requires: CMakeFiles/arduino_snake.dir/GameManager.
 CMakeFiles/arduino_snake.dir/requires: CMakeFiles/arduino_snake.dir/input/ArduinoInputReader.cpp.o.requires
 CMakeFiles/arduino_snake.dir/requires: CMakeFiles/arduino_snake.dir/ArduinoGame.cpp.o.requires
 CMakeFiles/arduino_snake.dir/requires: CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o.requires
+CMakeFiles/arduino_snake.dir/requires: CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o.requires
+CMakeFiles/arduino_snake.dir/requires: CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o.requires
 
 .PHONY : CMakeFiles/arduino_snake.dir/requires
 
@@ -432,6 +486,6 @@ CMakeFiles/arduino_snake.dir/clean:
 .PHONY : CMakeFiles/arduino_snake.dir/clean
 
 CMakeFiles/arduino_snake.dir/depend:
-	cd /Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/willpease/CLionProjects/ArduinoSnake /Users/willpease/CLionProjects/ArduinoSnake /Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug /Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug /Users/willpease/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles/arduino_snake.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug /cygdrive/c/Users/Will/CLionProjects/ArduinoSnake/cmake-build-debug/CMakeFiles/arduino_snake.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/arduino_snake.dir/depend
 

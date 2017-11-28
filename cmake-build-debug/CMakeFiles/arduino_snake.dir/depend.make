@@ -85,6 +85,8 @@ CMakeFiles/arduino_snake.dir/main.cpp.o: ../main.cpp
 CMakeFiles/arduino_snake.dir/main.cpp.o: ../renderer/ArduinoRenderer.h
 CMakeFiles/arduino_snake.dir/main.cpp.o: ../renderer/DiffDescription.h
 CMakeFiles/arduino_snake.dir/main.cpp.o: ../renderer/Renderer.h
+CMakeFiles/arduino_snake.dir/main.cpp.o: ../timer/Timer.h
+CMakeFiles/arduino_snake.dir/main.cpp.o: ../timer/Waiter.h
 
 CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o: ../game/BoardState.h
 CMakeFiles/arduino_snake.dir/renderer/ArduinoRenderer.cpp.o: ../renderer/ArduinoRenderer.cpp
@@ -99,4 +101,11 @@ CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.o: ../game/BoardState.h
 CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.o: ../renderer/DiffDescription.h
 CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.o: ../renderer/Renderer.cpp
 CMakeFiles/arduino_snake.dir/renderer/Renderer.cpp.o: ../renderer/Renderer.h
+
+CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o: ../timer/Timer.cpp
+CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o: ../timer/Timer.h
+CMakeFiles/arduino_snake.dir/timer/Timer.cpp.o: ../timer/Waiter.h
+
+CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o: ../timer/Waiter.cpp
+CMakeFiles/arduino_snake.dir/timer/Waiter.cpp.o: ../timer/Waiter.h
 

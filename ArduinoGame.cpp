@@ -2,6 +2,7 @@
 // Created by Will Pease on 11/26/17.
 //
 
+#include <cstdlib>
 #include "ArduinoGame.h"
 
 ArduinoGame::ArduinoGame() {
