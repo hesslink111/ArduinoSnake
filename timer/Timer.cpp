@@ -61,6 +61,10 @@ void Timer::clear_interval(int interval_handle) {
 }
 
 void Timer::run_next() {
+    if(this->waiters.size() == 0) {
+        return;
+    }
+
     // Find current time
     Waiter *next_waiter = this->waiters.front();
     struct timeval tp;
@@ -72,6 +76,7 @@ void Timer::run_next() {
         this->waiters.pop_front();
         if(next_waiter->interval > 0) {
             next_waiter->scheduled_time = millis + next_waiter->interval;
+            insert_waiter(next_waiter);
             next_waiter->func();
         } else {
             next_waiter->func();
