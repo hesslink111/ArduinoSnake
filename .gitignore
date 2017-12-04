@@ -18,3 +18,4 @@ build
 .idea
 .DS_Store
 cmake-build-debug
+build-mega-atmega2560
