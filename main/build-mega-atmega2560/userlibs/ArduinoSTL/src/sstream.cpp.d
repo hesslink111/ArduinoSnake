@@ -1,0 +1,33 @@
+build-mega-atmega2560/userlibs/ArduinoSTL/src/sstream.cpp.o: \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/sstream.cpp \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/sstream \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/basic_definitions \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/system_configuration.h \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/iosfwd \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/char_traits \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/exception \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/memory \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/new \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/cstddef \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/cstdlib \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/iterator_base \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/utility \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/cstdio \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/ios \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/locale \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/string \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/func_exception \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/vector \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/iterator \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/algorithm \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/functional \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/type_traits \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/initializer_list \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/istream \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/cctype \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/streambuf \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/istream_helpers \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/ostream \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/ostream_helpers \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/iostream \
+ /Users/willpease/Documents/Arduino/libraries/ArduinoSTL/src/string_iostream
